@@ -13,7 +13,7 @@ const Header = () =>{
 	               <h1 className="name">Sabar Mouri</h1>
 	               <h2 className="desc">Data Scientist</h2>   
                     <ul className="social list-inline">
-                        <li className="list-inline-item"><a href="#"><i className="fab fa-twitter"></i></a></li>
+                        <li className="list-inline-item"><a href="https://twitter.com/morsab21"><i className="fab fa-twitter"></i></a></li>
                         <li className="list-inline-item"><a href="https://www.linkedin.com/in/sabar-data-science/"><i className="fab fa-linkedin-in"></i></a></li>
                         <li className="list-inline-item last-item"><a href="https://github.com/dilqvl62/"><i className="fab fa-github-alt"></i></a></li>                   
                     </ul> 
