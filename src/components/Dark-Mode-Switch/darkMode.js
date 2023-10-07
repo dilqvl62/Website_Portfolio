@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './dark-switch.css';
+import { Button } from '@material-ui/core';
 
 const DarkModeSwitch = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,7 +32,11 @@ const DarkModeSwitch = () => {
   };
 
   return (
-    <div className="col-12 col-md-auto">
+    <div  >
+       
+       {/* <Button className="btn btn-cta-primary" href="" target="_blank">
+        <i className="fas fa-paper-plane"></i> Contact Me
+      </Button> */}
       <div className="dark-mode-switch d-flex">
         <div className="form-check form-switch mx-auto mx-md-0">
           <input
@@ -46,54 +51,9 @@ const DarkModeSwitch = () => {
           </label>
         </div>
       </div>
-      <a className="btn btn-cta-primary" href="" target="_blank">
-        <i className="fas fa-paper-plane"></i> Contact Me
-      </a>
+     
     </div>
   );
 };
 
 export default DarkModeSwitch;
-
-
-
-
-
-
-
-
-
-
-
-/*var darkSwitch = document.getElementById("darkSwitch");
-window.addEventListener("load", function () {
-  if (darkSwitch) {
-    initTheme();
-    darkSwitch.addEventListener("change", function () {
-      resetTheme();
-    });
-  }
-});
-
-
- 
-function initTheme() {
-  var darkThemeSelected =
-    localStorage.getItem("darkSwitch") !== null &&
-    localStorage.getItem("darkSwitch") === "dark";
-  darkSwitch.checked = darkThemeSelected;
-  darkThemeSelected
-    ? document.body.setAttribute("data-theme", "dark")
-    : document.body.removeAttribute("data-theme");
-}
-
-
-function resetTheme() {
-  if (darkSwitch.checked) {
-    document.body.setAttribute("data-theme", "dark");
-    localStorage.setItem("darkSwitch", "dark");
-  } else {
-    document.body.removeAttribute("data-theme");
-    localStorage.removeItem("darkSwitch");
-  }
-}*/
