@@ -45,3 +45,57 @@
 [data-theme="dark"] .bg-white {
   background-color: #000 !important;
 }
+
+.btn, a.btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  font-family: 'Montserrat', arial, sans-serif;
+  padding: 8px 14px;
+  font-weight: bold;
+}
+
+.btn .svg-inline--fa, a.btn .svg-inline--fa {
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+
+.btn:hover, a.btn:hover {
+  text-decoration: none;
+}
+
+.btn:focus, a.btn:focus {
+  color: #fff;
+  box-shadow: none;
+}
+
+a.btn-cta-primary, .btn-cta-primary {
+  background: #54ba4e;
+  border: 1px solid #54ba4e;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+a.btn-cta-primary:hover, .btn-cta-primary:hover {
+  background: #49ac43;
+  border: 1px solid #49ac43;
+  color: #fff;
+}
+
+a.btn-cta-secondary, .btn-cta-secondary {
+  background: #479FC8;
+  border: 1px solid #479FC8;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):active:focus, .btn-cta-secondary:hover, .btn-cta-secondary:not(:disabled):not(.disabled):active:focus {
+  background: #3893bd;
+  border: 1px solid #3893bd;
+  color: #fff;
+  box-shadow: none;
+}
