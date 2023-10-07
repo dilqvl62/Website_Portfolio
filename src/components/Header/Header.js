@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
-import DarkModeSwitch from '..//Dark-Mode-Switch/darkMode'
+import picture from '../../assets/Profile.png'
+import DarkModeSwitch from '../Dark-Mode-Switch/darkMode'
 const Header = () =>{
 	return (
 		
@@ -8,7 +9,7 @@ const Header = () =>{
         <div className="container">     
           <div className="row align-items-center">
 	          <div className="col">         
-              <img className="profile-image img-fluid float-start rounded-circle" src="Profile.png" alt="profile image" />
+              <img className="profile-image img-fluid float-start rounded-circle" src={picture} alt="profile image" />
               <div className="profile-content">
 	               <h1 className="name">Sabar Mouri</h1>
 	               <h2 className="desc">Data Scientist</h2>   
@@ -19,8 +20,7 @@ const Header = () =>{
                     </ul> 
 	             </div>
                
-               </div>
-              <DarkModeSwitch/>
+            </div>
           </div>       
          </div> 
        </header> /*header*/
