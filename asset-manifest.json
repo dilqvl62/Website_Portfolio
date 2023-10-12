@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Website_portfolio/static/css/main.4cfd7f87.css",
-    "main.js": "/Website_portfolio/static/js/main.6db74c02.js",
+    "main.js": "/Website_portfolio/static/js/main.8ff8c8bc.js",
     "static/js/787.bbe01249.chunk.js": "/Website_portfolio/static/js/787.bbe01249.chunk.js",
     "static/media/DbS.jpeg": "/Website_portfolio/static/media/DbS.aaab0a28542321bc1908.jpeg",
     "static/media/PLP.jpeg": "/Website_portfolio/static/media/PLP.e42dc130af0cfbf54a62.jpeg",
@@ -24,11 +24,11 @@
     "static/media/Heart_disease.jpeg": "/Website_portfolio/static/media/Heart_disease.838211f8fb3ab82f4e37.jpeg",
     "index.html": "/Website_portfolio/index.html",
     "main.4cfd7f87.css.map": "/Website_portfolio/static/css/main.4cfd7f87.css.map",
-    "main.6db74c02.js.map": "/Website_portfolio/static/js/main.6db74c02.js.map",
+    "main.8ff8c8bc.js.map": "/Website_portfolio/static/js/main.8ff8c8bc.js.map",
     "787.bbe01249.chunk.js.map": "/Website_portfolio/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cfd7f87.css",
-    "static/js/main.6db74c02.js"
+    "static/js/main.8ff8c8bc.js"
   ]
 }
