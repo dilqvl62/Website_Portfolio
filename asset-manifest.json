@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Website_portfolio/static/css/main.83d1ecb3.css",
-    "main.js": "/Website_portfolio/static/js/main.a9fb2ca0.js",
+    "main.js": "/Website_portfolio/static/js/main.4941b772.js",
     "static/js/787.bbe01249.chunk.js": "/Website_portfolio/static/js/787.bbe01249.chunk.js",
     "static/media/DbS.jpeg": "/Website_portfolio/static/media/DbS.aaab0a28542321bc1908.jpeg",
+    "static/media/project-featured.jpeg": "/Website_portfolio/static/media/project-featured.565a03636176bc6c3917.jpeg",
     "static/media/PLP.jpeg": "/Website_portfolio/static/media/PLP.e42dc130af0cfbf54a62.jpeg",
     "static/media/TAFM.jpeg": "/Website_portfolio/static/media/TAFM.151711a16180f83567f7.jpeg",
     "static/media/location.png": "/Website_portfolio/static/media/location.8e0135428808615c486e.png",
@@ -17,18 +18,17 @@
     "static/media/mdsr.jpeg": "/Website_portfolio/static/media/mdsr.de60508fd48613accf5a.jpeg",
     "static/media/DVD.jpeg": "/Website_portfolio/static/media/DVD.4e4bdf12373b064cce15.jpeg",
     "static/media/PoDec.jpeg": "/Website_portfolio/static/media/PoDec.470fc2c330ecdbc601ec.jpeg",
-    "static/media/project-featured.jpeg": "/Website_portfolio/static/media/project-featured.500b7e986ec0b714df2a.jpeg",
     "static/media/pfl.png": "/Website_portfolio/static/media/pfl.cefaf1e809d06349ea61.png",
     "static/media/Machine_prediction.jpeg": "/Website_portfolio/static/media/Machine_prediction.35cc2e2f85d26f3fb2fe.jpeg",
     "static/media/Profile.png": "/Website_portfolio/static/media/Profile.3c88f54b5233e6ab0167.png",
     "static/media/Heart_disease.jpeg": "/Website_portfolio/static/media/Heart_disease.838211f8fb3ab82f4e37.jpeg",
     "index.html": "/Website_portfolio/index.html",
     "main.83d1ecb3.css.map": "/Website_portfolio/static/css/main.83d1ecb3.css.map",
-    "main.a9fb2ca0.js.map": "/Website_portfolio/static/js/main.a9fb2ca0.js.map",
+    "main.4941b772.js.map": "/Website_portfolio/static/js/main.4941b772.js.map",
     "787.bbe01249.chunk.js.map": "/Website_portfolio/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83d1ecb3.css",
-    "static/js/main.a9fb2ca0.js"
+    "static/js/main.4941b772.js"
   ]
 }
